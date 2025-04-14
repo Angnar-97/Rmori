@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bioconductor – R Kodamas</title>
+<title>Procesamiento del Lenguaje Natural – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,8 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Bioconductor – R Kodamas">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Procesamiento del Lenguaje Natural – R Kodamas">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -263,12 +262,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">PAGE INDEX</h2>
    
   <ul>
-  <li><a href="#phyloseq" id="toc-phyloseq" class="nav-link active" data-scroll-target="#phyloseq"><strong>Phyloseq</strong></a></li>
-  <li><a href="#deseq2" id="toc-deseq2" class="nav-link" data-scroll-target="#deseq2"><strong>DESeq2</strong></a></li>
-  <li><a href="#edger" id="toc-edger" class="nav-link" data-scroll-target="#edger"><strong>EdgeR</strong></a></li>
-  <li><a href="#limma" id="toc-limma" class="nav-link" data-scroll-target="#limma"><strong>Limma</strong></a></li>
-  <li><a href="#summarizedexperiment" id="toc-summarizedexperiment" class="nav-link" data-scroll-target="#summarizedexperiment"><strong>SummarizedExperiment</strong></a></li>
-  <li><a href="#biostrings" id="toc-biostrings" class="nav-link" data-scroll-target="#biostrings"><strong>Biostrings</strong></a></li>
+  <li><a href="#paquetes-para-análisis-de-texto-y-nlp" id="toc-paquetes-para-análisis-de-texto-y-nlp" class="nav-link active" data-scroll-target="#paquetes-para-análisis-de-texto-y-nlp"><strong>🔍 Paquetes para análisis de texto y NLP</strong></a>
+  <ul class="collapse">
+  <li><a href="#tidytext" id="toc-tidytext" class="nav-link" data-scroll-target="#tidytext"><strong>Tidytext</strong></a></li>
+  <li><a href="#quanteda" id="toc-quanteda" class="nav-link" data-scroll-target="#quanteda"><strong>Quanteda</strong></a></li>
+  <li><a href="#text2vec" id="toc-text2vec" class="nav-link" data-scroll-target="#text2vec"><strong>Text2vec</strong></a></li>
+  <li><a href="#tm" id="toc-tm" class="nav-link" data-scroll-target="#tm"><strong>Tm</strong></a></li>
+  <li><a href="#udpipe" id="toc-udpipe" class="nav-link" data-scroll-target="#udpipe"><strong>Udpipe</strong></a></li>
+  <li><a href="#textrecipes" id="toc-textrecipes" class="nav-link" data-scroll-target="#textrecipes"><strong>Textrecipes</strong></a></li>
+  <li><a href="#sentimentr" id="toc-sentimentr" class="nav-link" data-scroll-target="#sentimentr"><strong>Sentimentr</strong></a></li>
+  <li><a href="#syuzhet" id="toc-syuzhet" class="nav-link" data-scroll-target="#syuzhet"><strong>Syuzhet</strong></a></li>
+  <li><a href="#topicmodels" id="toc-topicmodels" class="nav-link" data-scroll-target="#topicmodels"><strong>Topicmodels</strong></a></li>
+  <li><a href="#rtexttools" id="toc-rtexttools" class="nav-link" data-scroll-target="#rtexttools"><strong>RTextTools</strong></a></li>
+  </ul></li>
+  <li><a href="#paquetes-para-flujos-de-trabajo-rag-y-generación-aumentada" id="toc-paquetes-para-flujos-de-trabajo-rag-y-generación-aumentada" class="nav-link" data-scroll-target="#paquetes-para-flujos-de-trabajo-rag-y-generación-aumentada"><strong>🤖 Paquetes para flujos de trabajo RAG y generación aumentada</strong></a>
+  <ul class="collapse">
+  <li><a href="#ragnar" id="toc-ragnar" class="nav-link" data-scroll-target="#ragnar"><strong>Ragnar</strong></a></li>
+  <li><a href="#gptstudio" id="toc-gptstudio" class="nav-link" data-scroll-target="#gptstudio"><strong>Gptstudio</strong></a></li>
+  <li><a href="#chatgpt" id="toc-chatgpt" class="nav-link" data-scroll-target="#chatgpt"><strong>Chatgpt</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -277,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bioconductor</h1>
+<h1 class="title">Procesamiento del Lenguaje Natural</h1>
 </div>
 
 
@@ -294,127 +306,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="phyloseq" class="level3">
-<h3 class="anchored" data-anchor-id="phyloseq"><strong>Phyloseq</strong></h3>
+<section id="paquetes-para-análisis-de-texto-y-nlp" class="level1">
+<h1><strong>🔍 Paquetes para análisis de texto y NLP</strong></h1>
+<section id="tidytext" class="level2">
+<h2 class="anchored" data-anchor-id="tidytext"><strong>Tidytext</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/phyloseq.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://joey711.github.io/phyloseq/">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>Phyloseq</code> es un paquete de R diseñado para el análisis y la visualización de datos microbiológicos y de ecología microbiana. Permite trabajar con datos de secuenciación de alto rendimiento de microbiomas. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Integración de múltiples tipos de datos</strong>: Manejo de abundancia de OTUs, taxonomía, metadatos ambientales, etc.<br>
-</li>
-<li><strong>Análisis de diversidad alfa y beta</strong>: Herramientas para explorar la diversidad de comunidades microbianas.<br>
-</li>
-<li><strong>Visualización</strong>: Permite crear gráficos de barras, PCA/PCoA, redes microbianas, entre otros.<br>
-</li>
-<li><strong>Interoperabilidad</strong>: Compatible con flujos de trabajo de herramientas como QIIME.</li>
-</ul>
-<p>Es ampliamente utilizado en estudios relacionados con el microbioma para comprender la composición y dinámica de comunidades microbianas.</p>
-<hr>
+<p>Convierte texto en tidy data frames para análisis con herramientas del tidyverse.</p>
 </section>
-<section id="deseq2" class="level3">
-<h3 class="anchored" data-anchor-id="deseq2"><strong>DESeq2</strong></h3>
+<section id="quanteda" class="level2">
+<h2 class="anchored" data-anchor-id="quanteda"><strong>Quanteda</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>DESeq2</code> es un paquete de R enfocado en el análisis de expresión diferencial para datos de RNA-seq (o conteos de secuenciación). Utiliza modelos estadísticos basados en la distribución binomial negativa para estimar la significancia de los cambios de expresión entre condiciones experimentales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Normalización de datos de conteo</strong>: Ajuste estadístico para diferencias de profundidad de secuenciación.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Identificación de genes y transcritos que cambian significativamente entre grupos.<br>
-</li>
-<li><strong>Cálculo de tamaños de efecto y valores de p ajustados</strong>: Minimiza falsos positivos en grandes conjuntos de datos.<br>
-</li>
-<li><strong>Visualizaciones integradas</strong>: Funciones para generar MA-plots, PCA y gráficos de dispersión.</li>
-</ul>
-<p>DESeq2 es una herramienta estándar para el análisis de datos transcriptómicos en estudios genómicos y de biología molecular.</p>
-<hr>
+<p>Procesamiento eficiente de corpus, análisis de texto y modelado estadístico.</p>
 </section>
-<section id="edger" class="level3">
-<h3 class="anchored" data-anchor-id="edger"><strong>EdgeR</strong></h3>
+<section id="text2vec" class="level2">
+<h2 class="anchored" data-anchor-id="text2vec"><strong>Text2vec</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/edgeR.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>EdgeR</code> se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Estimación de dispersión</strong>: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.<br>
-</li>
-<li><strong>Comparaciones múltiples</strong>: Manejo de distintos contrastes y condiciones experimentales.<br>
-</li>
-<li><strong>Análisis de genes de baja expresión</strong>: Herramientas específicas para filtrar y evaluar genes con conteos bajos.<br>
-</li>
-<li><strong>Compatibilidad con grandes datasets</strong>: Procesamiento eficiente incluso con muestras y genes numerosos.</li>
-</ul>
-<p>edgeR es especialmente valorado por su robustez en el tratamiento de datos de conteo y es ampliamente citado en estudios de transcriptómica.</p>
-<hr>
+<p>Ofrece tokenización, embeddings, similitud de texto y modelado de tópicos.</p>
 </section>
-<section id="limma" class="level3">
-<h3 class="anchored" data-anchor-id="limma"><strong>Limma</strong></h3>
+<section id="tm" class="level2">
+<h2 class="anchored" data-anchor-id="tm"><strong>Tm</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/limma.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>Limma</code> nació como un paquete para el análisis de microarrays, pero se ha adaptado también para datos de RNA-seq combinándolo con técnicas de transformación de conteos (por ejemplo, <em>voom</em>). Permite modelar datos de expresión génica usando metodologías lineales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Modelos lineales</strong>: Ajustes flexibles para comparar múltiples grupos o condiciones.<br>
-</li>
-<li><strong>Funcionalidad <em>voom</em></strong>: Transformación de conteos para aplicar metodologías de microarray a RNA-seq.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Resultados fiables con correcciones de valores de p y estimaciones de variación.<br>
-</li>
-<li><strong>Integración con flujos de trabajo</strong>: Compatible con otros paquetes de Bioconductor para la visualización y exploración de resultados.</li>
-</ul>
-<p><code>Limma</code> es una de las herramientas más consolidadas para el análisis de expresión génica, siendo muy valorada por su velocidad y robustez.</p>
-<hr>
+<p>Paquete clásico para minería de texto, útil para tareas básicas de NLP.</p>
 </section>
-<section id="summarizedexperiment" class="level3">
-<h3 class="anchored" data-anchor-id="summarizedexperiment"><strong>SummarizedExperiment</strong></h3>
+<section id="udpipe" class="level2">
+<h2 class="anchored" data-anchor-id="udpipe"><strong>Udpipe</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>SummarizedExperiment</code> proporciona una estructura de datos (clase S4 en R) para almacenar y manipular conjuntamente datos de expresión (o conteos) y la información fenotípica y de características (metadatos). Sus principales características incluyen:</p>
-<ul>
-<li><strong>Organización coherente</strong>: Mantiene matrices de expresión, metadatos de filas (genes) y columnas (muestras) unificados.<br>
-</li>
-<li><strong>Acceso eficiente</strong>: Funciones rápidas para extraer subconjuntos de filas, columnas o datos combinados.<br>
-</li>
-<li><strong>Base para muchos paquetes</strong>: Constituye el formato de entrada estándar para herramientas de análisis de expresión y genómica.<br>
-</li>
-<li><strong>Coherencia y reproducibilidad</strong>: Facilita la gestión ordenada de grandes conjuntos de datos ómicos.</li>
-</ul>
-<p>Es muy utilizado como estructura base para análisis genómicos y flujos de trabajo complejos en Bioconductor.</p>
-<hr>
+<p>Análisis gramatical, lematización y parsing dependiente usando modelos UDPipe.</p>
 </section>
-<section id="biostrings" class="level3">
-<h3 class="anchored" data-anchor-id="biostrings"><strong>Biostrings</strong></h3>
+<section id="textrecipes" class="level2">
+<h2 class="anchored" data-anchor-id="textrecipes"><strong>Textrecipes</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/Biostrings.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://kasperdanielhansen.github.io/genbioconductor/html/Biostrings.html">Documentación detallada</a></li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>Biostrings</code> ofrece herramientas para la manipulación y análisis de secuencias biológicas (ADN, ARN y proteínas) en R. Sus principales características incluyen:</p>
+<p>Extiende recipes para preprocesar texto en flujos de trabajo de machine learning.</p>
+</section>
+<section id="sentimentr" class="level2">
+<h2 class="anchored" data-anchor-id="sentimentr"><strong>Sentimentr</strong></h2>
 <ul>
-<li><strong>Manejo de secuencias</strong>: Lectura, escritura y almacenamiento eficiente de secuencias de grandes bases de datos.<br>
-</li>
-<li><strong>Búsqueda de patrones</strong>: Funciones para alinear secuencias y encontrar subsecuencias concretas.<br>
-</li>
-<li><strong>Análisis de calidad</strong>: Herramientas para evaluar la calidad y realizar transformaciones de secuencias.<br>
-</li>
-<li><strong>Integración con otras librerías</strong>: Se combina bien con paquetes como <code>IRanges</code> para análisis avanzados de genómica.</li>
+<li><a href="">Accede aquí</a></li>
 </ul>
-<p><code>Biostrings</code> es fundamental para tareas de bioinformática que involucran la manipulación directa de secuencias.</p>
-<hr>
+<p>Análisis de sentimientos con manejo de contexto y puntuación.</p>
+</section>
+<section id="syuzhet" class="level2">
+<h2 class="anchored" data-anchor-id="syuzhet"><strong>Syuzhet</strong></h2>
+<ul>
+<li><a href="">Accede aquí</a></li>
+</ul>
+<p>Extrae sentimientos usando diccionarios como NRC, Bing y Afinn.</p>
+</section>
+<section id="topicmodels" class="level2">
+<h2 class="anchored" data-anchor-id="topicmodels"><strong>Topicmodels</strong></h2>
+<ul>
+<li><a href="">Accede aquí</a></li>
+</ul>
+<p>Implementa modelos de tópicos como LDA y CTM para análisis de temas.</p>
+</section>
+<section id="rtexttools" class="level2">
+<h2 class="anchored" data-anchor-id="rtexttools"><strong>RTextTools</strong></h2>
+<ul>
+<li><a href="">Accede aquí</a></li>
+</ul>
+<p>Framework para clasificación de texto con múltiples algoritmos de machine learning.</p>
+</section>
+</section>
+<section id="paquetes-para-flujos-de-trabajo-rag-y-generación-aumentada" class="level1">
+<h1><strong>🤖 Paquetes para flujos de trabajo RAG y generación aumentada</strong></h1>
+<section id="ragnar" class="level2">
+<h2 class="anchored" data-anchor-id="ragnar"><strong>Ragnar</strong></h2>
+<ul>
+<li><a href="https://github.com/tidyverse/ragnar">Accede aquí</a></li>
+</ul>
+<p>Herramienta oficial del tidyverse para implementar flujos de trabajo RAG en R. Proporciona una solución completa con valores predeterminados sensatos, permitiendo al usuario experto un control preciso sobre cada paso. Está diseñada para ser transparente, permitiendo inspeccionar fácilmente las salidas en pasos intermedios para comprender lo que está sucediendo.</p>
+</section>
+<section id="gptstudio" class="level2">
+<h2 class="anchored" data-anchor-id="gptstudio"><strong>Gptstudio</strong></h2>
+<ul>
+<li><a href="">Accede aquí</a></li>
+</ul>
+<p>Interfaz para interactuar con modelos de lenguaje grandes (LLMs) desde RStudio, facilitando la integración de generación de texto en flujos de trabajo.</p>
+</section>
+<section id="chatgpt" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt"><strong>Chatgpt</strong></h2>
+<ul>
+<li><a href="">Accede aquí</a></li>
+</ul>
+<p>Permite acceder a la API de ChatGPT desde R, útil para tareas de generación de texto y chatbots.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

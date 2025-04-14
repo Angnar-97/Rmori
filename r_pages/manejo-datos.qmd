@@ -66,17 +66,6 @@ editor: source
 
 ---
 
-## **Gt**
-
-- [Accede aquí](https://gt.rstudio.com/articles/gt.html)
-
-`Gt` (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:
-
-- **Diseño simple y poderoso**: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.  
-- **Amplia personalización**: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.  
-- **Integración con tidyverse**: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.
-
----
 
 ## **Naniar**
 
@@ -103,3 +92,11 @@ editor: source
 
 ---
 
+
+## **BupaR**
+
+- [Accede aquí](https://bupaverse.github.io/docs/index.html)
+
+## **Flowchart**
+
+- [Accede aquí](https://bruigtp.github.io/flowchart/articles/flowchart.html)

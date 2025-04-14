@@ -1,0 +1,64 @@
+---
+title: "Diseño de Tablas"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+## **Gt**
+
+- [Accede aquí](https://gt.rstudio.com/articles/gt.html)
+
+`Gt` (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:
+
+- **Diseño simple y poderoso**: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.  
+- **Amplia personalización**: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.  
+- **Integración con tidyverse**: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.
+
+---
+
+## **GtExtra**
+
+- [Accede aquí](https://jthomasmock.github.io/gtExtras/index.html)
+
+
+## **Formattable**
+
+- [Accede aquí](https://renkun-ken.github.io/formattable/)
+
+
+## **Reactable**
+
+- [Accede aquí](https://glin.github.io/reactable/index.html)
+
+## **Reactablefmtr**
+
+- [Accede aquí](https://kcuilla.github.io/reactablefmtr/)
+
+
+## **KableExtra**
+
+- [Accede aquí](https://cran.rstudio.com/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
+
+## **DT**
+
+- [Accede aquí](https://rstudio.github.io/DT/)
+
+## **Flextable**
+
+- [Accede aquí](https://davidgohel.github.io/flextable/index.html)
+
+## **Huxtable**
+
+- [Accede aquí](https://hughjonesd.github.io/huxtable/)
+
+
+## **Rhandsontable**
+
+- [Accede aquí](https://jrowen.github.io/rhandsontable/)
+
+## **Pixiedust**
+
+- [Accde aquí](https://github.com/nutterb/pixiedust?tab=readme-ov-file)
+
+

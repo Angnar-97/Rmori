@@ -37,12 +37,12 @@ DESeq2 es una herramienta estándar para el análisis de datos transcriptómicos
 
 ---
 
-### **edgeR**
+### **EdgeR**
 
 - [Página oficial en Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/edgeR.html)  
 - [Documentación detallada](https://www.bioconductor.org/packages/devel/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf)  
 
-`edgeR` se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:
+`EdgeR` se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:
 
 - **Estimación de dispersión**: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.  
 - **Comparaciones múltiples**: Manejo de distintos contrastes y condiciones experimentales.  

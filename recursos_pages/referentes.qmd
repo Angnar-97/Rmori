@@ -16,7 +16,7 @@ editor: source
 
 ## **Guido van Rossum (Python)**
 - [Sitio web personal](https://gvanrossum.github.io/)  
-- [Perfil en X (Twitter)](https://twitter.com/gvanrossum)  
+- [Perfil en X (Twitter)](https://x.com/gvanrossum)  
 
 Creador de Python y conocido durante muchos años como el *Benevolent Dictator For Life* (BDFL) del lenguaje. Su visión inicial sentó las bases de la filosofía de Python, enfocada en la legibilidad y la sencillez. Aunque ahora está retirado de su rol de liderazgo, sigue siendo un referente histórico y muy respetado en la comunidad de desarrollo.
 
@@ -24,7 +24,7 @@ Creador de Python y conocido durante muchos años como el *Benevolent Dictator F
 
 ## **Hadley Wickham (R)**
 - [Sitio web personal](https://hadley.nz/)  
-- [Perfil en X (Twitter)](https://twitter.com/hadleywickham)  
+- [Perfil en X (Twitter)](https://x.com/hadleywickham)  
 
 Uno de los principales referentes en el mundo de R y creador de múltiples paquetes fundamentales como **ggplot2**, **dplyr** y **tidyr**, que forman parte del **tidyverse**. Ha publicado varios libros y es Chief Scientist en Posit (antes RStudio), impulsando el desarrollo de herramientas de código abierto para la comunidad de R.
 
@@ -34,7 +34,7 @@ Uno de los principales referentes en el mundo de R y creador de múltiples paque
 
 ## **Sebastian Raschka (Python)**
 - [Sitio web personal](https://sebastianraschka.com/)  
-- [Perfil en X (Twitter)](https://twitter.com/rasbt)  
+- [Perfil en X (Twitter)](https://x.com/rasbt)  
 
 Científico de datos y autor del libro *Python Machine Learning*. Conocido por su trabajo en bibliotecas como **mlxtend** y por compartir tutoriales detallados sobre métodos de aprendizaje automático. Su enfoque práctico y orientado a la reproducibilidad es muy valorado en la comunidad.
 
@@ -42,7 +42,7 @@ Científico de datos y autor del libro *Python Machine Learning*. Conocido por s
 
 ## **Harrison Kinsley (Sentdex, Python)**
 - [Sitio web oficial](https://www.sentdex.com/)  
-- [Perfil en X (Twitter)](https://twitter.com/sentdex)  
+- [Perfil en X (Twitter)](https://x.com/sentdex)  
 
 Creador de contenido especializado en **machine learning**, **deep learning** e **inteligencia artificial** con Python. En su canal de YouTube "Sentdex", publica tutoriales prácticos sobre procesamiento de lenguaje natural, visión por computadora y desarrollo de proyectos de IA. Destaca por explicar de forma sencilla conceptos complejos y por su entusiasmo al enseñar.
 
@@ -50,7 +50,7 @@ Creador de contenido especializado en **machine learning**, **deep learning** e 
 
 ## **Ken Jee (Python)**
 - [Canal de YouTube](https://www.youtube.com/@KenJee1)  
-- [Perfil en X (Twitter)](https://twitter.com/KenJee_DS)  
+- [Perfil en X (Twitter)](https://x.com/KenJee_DS)  
 
 Popular en redes sociales por sus videos y proyectos sobre ciencia de datos y aprendizaje automático en Python. Comparte contenido formativo, entrevistas con expertos de la industria y guías prácticas para iniciar una carrera en el campo de la analítica de datos. Es valorado por su enfoque motivacional y por brindar consejos sobre desarrollo profesional.
 
@@ -60,7 +60,7 @@ Popular en redes sociales por sus videos y proyectos sobre ciencia de datos y ap
 
 ## **Garrett Grolemund (R)**
 - [Sitio web personal](https://garrettglo.com/)  
-- [Perfil en X (Twitter)](https://twitter.com/StatGarrett)  
+- [Perfil en X (Twitter)](https://x.com/StatGarrett)  
 
 Educador y Data Scientist en Posit, coautor junto a Hadley Wickham de *R for Data Science*. Sus aportes se centran en la enseñanza y divulgación de técnicas de programación en R, visualización y análisis de datos. Es reconocido por sus charlas y cursos en línea, dirigidos a principiantes y usuarios intermedios.
 
@@ -68,7 +68,7 @@ Educador y Data Scientist en Posit, coautor junto a Hadley Wickham de *R for Dat
 
 ## **Corey Schafer (Python)**
 - [Canal de YouTube](https://www.youtube.com/@coreyms)  
-- [Perfil en X (Twitter)](https://twitter.com/CoreyMSchafer)  
+- [Perfil en X (Twitter)](https://x.com/CoreyMSchafer)  
 
 Famoso por sus completos tutoriales en YouTube sobre Python. Sus contenidos abarcan desde conceptos básicos de programación hasta desarrollos avanzados con frameworks como Django y Flask. Su estilo didáctico y ejemplos claros han ayudado a miles de personas a iniciarse y profundizar en Python.
 
@@ -76,7 +76,7 @@ Famoso por sus completos tutoriales en YouTube sobre Python. Sus contenidos abar
 
 ## **ArjanCodes (Python)**
 - [Sitio web oficial](https://www.arjancodes.com/)  
-- [Perfil en X (Twitter)](https://twitter.com/arjancodes)  
+- [Perfil en X (Twitter)](https://x.com/arjancodes)  
 
 Reconocido por su canal de YouTube y su blog centrado en la **calidad del código y las buenas prácticas** de programación con Python. Publica tutoriales sobre patrones de diseño, arquitectura de software y métodos para escribir código más limpio y mantenible. Es un referente para quienes buscan profesionalizar sus habilidades de desarrollo en Python.
 
@@ -84,17 +84,15 @@ Reconocido por su canal de YouTube y su blog centrado en la **calidad del códig
 
 ## **Rosana Ferrero (R)**
 - [Blog de Ciencia de Datos](https://www.maximaformacion.es/blog-ciencia-datos/)  
-- *Perfil en X (Twitter)*: *(No disponible públicamente)*  
+- [Perfil en X (Twitter)](https://x.com/RosanaFerrero) 
 
 Especialista en R y divulgadora de contenidos de ciencia de datos en español. Ha impartido numerosos cursos y talleres de análisis de datos, haciendo hincapié en la importancia de la formación continua y el rigor estadístico. Comparte regularmente recursos y consejos prácticos para profesionales y estudiantes del ámbito del análisis de datos.
 
 ---
 
-# **Comunidad y Visualización**
-
 ## **Jesse Mostipak (R)**
 - [Sitio web personal](https://www.jessiemostipak.com/)  
-- [Perfil en X (Twitter)](https://twitter.com/kierisi)  
+- [Perfil en X (Twitter)](https://x.com/kierisi)  
 
 Destaca por su trabajo en la comunidad R, especialmente con **TidyTuesday**, un proyecto semanal de código abierto que fomenta la práctica de la visualización y el análisis de datos en R. Contribuye activamente a la comunidad a través de workshops, tutoriales y participación en eventos internacionales. Es una defensora de la diversidad y la inclusión en el ámbito de la ciencia de datos.
 
@@ -102,7 +100,7 @@ Destaca por su trabajo en la comunidad R, especialmente con **TidyTuesday**, un 
 
 ## **Mara Averick (R)**
 - [Sitio web personal](https://maraaverick.rbind.io/)  
-- [Perfil en X (Twitter)](https://twitter.com/dataandme)  
+- [Perfil en X (Twitter)](https://x.com/dataandme)  
 
 Conocida en la comunidad de R por su labor de curación de contenido y difusión de recursos de interés en ciencia de datos. Participa activamente en eventos y conferencias, y comparte descubrimientos de paquetes, tutoriales y ejemplos de visualización que inspiran tanto a principiantes como a expertos.
 
@@ -110,8 +108,20 @@ Conocida en la comunidad de R por su labor de curación de contenido y difusión
 
 ## **Yihui Xie (R)**
 - [Sitio web personal](https://yihui.org/)  
-- [Perfil en X (Twitter)](https://twitter.com/xieyihui)  
+- [Perfil en X (Twitter)](https://x.com/xieyihui)  
 
 Desarrollador de paquetes clave para la comunidad de R, como **knitr**, **bookdown**, **blogdown** y **xaringan**, que han transformado la forma de elaborar informes dinámicos y presentaciones. Sus contribuciones en la generación de documentos reproducibles y en la automatización de tareas de visualización son ampliamente reconocidas.
 
 ---
+
+## **Bastián Olea**
+
+- [Sitio web personal](https://bastianolea.rbind.io/blog/)
+- [Perfil en X (Twitter)](https://x.com/bastimapache)
+
+
+## **Alboukadel Kassambara**
+
+- [Sitio web personal](https://www.datanovia.com/es/)
+- [Perfil en X (Twitter)](https://x.com/datanovia)
+

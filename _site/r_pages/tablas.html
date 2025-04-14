@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bioconductor – R Kodamas</title>
+<title>Diseño de Tablas – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Bioconductor – R Kodamas">
+<meta name="twitter:title" content="Diseño de Tablas – R Kodamas">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -263,12 +263,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">PAGE INDEX</h2>
    
   <ul>
-  <li><a href="#phyloseq" id="toc-phyloseq" class="nav-link active" data-scroll-target="#phyloseq"><strong>Phyloseq</strong></a></li>
-  <li><a href="#deseq2" id="toc-deseq2" class="nav-link" data-scroll-target="#deseq2"><strong>DESeq2</strong></a></li>
-  <li><a href="#edger" id="toc-edger" class="nav-link" data-scroll-target="#edger"><strong>EdgeR</strong></a></li>
-  <li><a href="#limma" id="toc-limma" class="nav-link" data-scroll-target="#limma"><strong>Limma</strong></a></li>
-  <li><a href="#summarizedexperiment" id="toc-summarizedexperiment" class="nav-link" data-scroll-target="#summarizedexperiment"><strong>SummarizedExperiment</strong></a></li>
-  <li><a href="#biostrings" id="toc-biostrings" class="nav-link" data-scroll-target="#biostrings"><strong>Biostrings</strong></a></li>
+  <li><a href="#gt" id="toc-gt" class="nav-link active" data-scroll-target="#gt"><strong>Gt</strong></a></li>
+  <li><a href="#gtextra" id="toc-gtextra" class="nav-link" data-scroll-target="#gtextra"><strong>GtExtra</strong></a></li>
+  <li><a href="#formattable" id="toc-formattable" class="nav-link" data-scroll-target="#formattable"><strong>Formattable</strong></a></li>
+  <li><a href="#reactable" id="toc-reactable" class="nav-link" data-scroll-target="#reactable"><strong>Reactable</strong></a></li>
+  <li><a href="#reactablefmtr" id="toc-reactablefmtr" class="nav-link" data-scroll-target="#reactablefmtr"><strong>Reactablefmtr</strong></a></li>
+  <li><a href="#kableextra" id="toc-kableextra" class="nav-link" data-scroll-target="#kableextra"><strong>KableExtra</strong></a></li>
+  <li><a href="#dt" id="toc-dt" class="nav-link" data-scroll-target="#dt"><strong>DT</strong></a></li>
+  <li><a href="#flextable" id="toc-flextable" class="nav-link" data-scroll-target="#flextable"><strong>Flextable</strong></a></li>
+  <li><a href="#huxtable" id="toc-huxtable" class="nav-link" data-scroll-target="#huxtable"><strong>Huxtable</strong></a></li>
+  <li><a href="#rhandsontable" id="toc-rhandsontable" class="nav-link" data-scroll-target="#rhandsontable"><strong>Rhandsontable</strong></a></li>
+  <li><a href="#pixiedust" id="toc-pixiedust" class="nav-link" data-scroll-target="#pixiedust"><strong>Pixiedust</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -277,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bioconductor</h1>
+<h1 class="title">Diseño de Tablas</h1>
 </div>
 
 
@@ -294,125 +299,80 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="phyloseq" class="level3">
-<h3 class="anchored" data-anchor-id="phyloseq"><strong>Phyloseq</strong></h3>
+<section id="gt" class="level2">
+<h2 class="anchored" data-anchor-id="gt"><strong>Gt</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/phyloseq.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://joey711.github.io/phyloseq/">Documentación detallada</a></li>
+<li><a href="https://gt.rstudio.com/articles/gt.html">Accede aquí</a></li>
 </ul>
-<p><code>Phyloseq</code> es un paquete de R diseñado para el análisis y la visualización de datos microbiológicos y de ecología microbiana. Permite trabajar con datos de secuenciación de alto rendimiento de microbiomas. Sus principales características incluyen:</p>
+<p><code>Gt</code> (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:</p>
 <ul>
-<li><strong>Integración de múltiples tipos de datos</strong>: Manejo de abundancia de OTUs, taxonomía, metadatos ambientales, etc.<br>
+<li><strong>Diseño simple y poderoso</strong>: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.<br>
 </li>
-<li><strong>Análisis de diversidad alfa y beta</strong>: Herramientas para explorar la diversidad de comunidades microbianas.<br>
+<li><strong>Amplia personalización</strong>: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.<br>
 </li>
-<li><strong>Visualización</strong>: Permite crear gráficos de barras, PCA/PCoA, redes microbianas, entre otros.<br>
-</li>
-<li><strong>Interoperabilidad</strong>: Compatible con flujos de trabajo de herramientas como QIIME.</li>
+<li><strong>Integración con tidyverse</strong>: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.</li>
 </ul>
-<p>Es ampliamente utilizado en estudios relacionados con el microbioma para comprender la composición y dinámica de comunidades microbianas.</p>
 <hr>
 </section>
-<section id="deseq2" class="level3">
-<h3 class="anchored" data-anchor-id="deseq2"><strong>DESeq2</strong></h3>
+<section id="gtextra" class="level2">
+<h2 class="anchored" data-anchor-id="gtextra"><strong>GtExtra</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Documentación detallada</a></li>
+<li><a href="https://jthomasmock.github.io/gtExtras/index.html">Accede aquí</a></li>
 </ul>
-<p><code>DESeq2</code> es un paquete de R enfocado en el análisis de expresión diferencial para datos de RNA-seq (o conteos de secuenciación). Utiliza modelos estadísticos basados en la distribución binomial negativa para estimar la significancia de los cambios de expresión entre condiciones experimentales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Normalización de datos de conteo</strong>: Ajuste estadístico para diferencias de profundidad de secuenciación.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Identificación de genes y transcritos que cambian significativamente entre grupos.<br>
-</li>
-<li><strong>Cálculo de tamaños de efecto y valores de p ajustados</strong>: Minimiza falsos positivos en grandes conjuntos de datos.<br>
-</li>
-<li><strong>Visualizaciones integradas</strong>: Funciones para generar MA-plots, PCA y gráficos de dispersión.</li>
-</ul>
-<p>DESeq2 es una herramienta estándar para el análisis de datos transcriptómicos en estudios genómicos y de biología molecular.</p>
-<hr>
 </section>
-<section id="edger" class="level3">
-<h3 class="anchored" data-anchor-id="edger"><strong>EdgeR</strong></h3>
+<section id="formattable" class="level2">
+<h2 class="anchored" data-anchor-id="formattable"><strong>Formattable</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/edgeR.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf">Documentación detallada</a></li>
+<li><a href="https://renkun-ken.github.io/formattable/">Accede aquí</a></li>
 </ul>
-<p><code>EdgeR</code> se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Estimación de dispersión</strong>: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.<br>
-</li>
-<li><strong>Comparaciones múltiples</strong>: Manejo de distintos contrastes y condiciones experimentales.<br>
-</li>
-<li><strong>Análisis de genes de baja expresión</strong>: Herramientas específicas para filtrar y evaluar genes con conteos bajos.<br>
-</li>
-<li><strong>Compatibilidad con grandes datasets</strong>: Procesamiento eficiente incluso con muestras y genes numerosos.</li>
-</ul>
-<p>edgeR es especialmente valorado por su robustez en el tratamiento de datos de conteo y es ampliamente citado en estudios de transcriptómica.</p>
-<hr>
 </section>
-<section id="limma" class="level3">
-<h3 class="anchored" data-anchor-id="limma"><strong>Limma</strong></h3>
+<section id="reactable" class="level2">
+<h2 class="anchored" data-anchor-id="reactable"><strong>Reactable</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/limma.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf">Documentación detallada</a></li>
+<li><a href="https://glin.github.io/reactable/index.html">Accede aquí</a></li>
 </ul>
-<p><code>Limma</code> nació como un paquete para el análisis de microarrays, pero se ha adaptado también para datos de RNA-seq combinándolo con técnicas de transformación de conteos (por ejemplo, <em>voom</em>). Permite modelar datos de expresión génica usando metodologías lineales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Modelos lineales</strong>: Ajustes flexibles para comparar múltiples grupos o condiciones.<br>
-</li>
-<li><strong>Funcionalidad <em>voom</em></strong>: Transformación de conteos para aplicar metodologías de microarray a RNA-seq.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Resultados fiables con correcciones de valores de p y estimaciones de variación.<br>
-</li>
-<li><strong>Integración con flujos de trabajo</strong>: Compatible con otros paquetes de Bioconductor para la visualización y exploración de resultados.</li>
-</ul>
-<p><code>Limma</code> es una de las herramientas más consolidadas para el análisis de expresión génica, siendo muy valorada por su velocidad y robustez.</p>
-<hr>
 </section>
-<section id="summarizedexperiment" class="level3">
-<h3 class="anchored" data-anchor-id="summarizedexperiment"><strong>SummarizedExperiment</strong></h3>
+<section id="reactablefmtr" class="level2">
+<h2 class="anchored" data-anchor-id="reactablefmtr"><strong>Reactablefmtr</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html">Documentación detallada</a></li>
+<li><a href="https://kcuilla.github.io/reactablefmtr/">Accede aquí</a></li>
 </ul>
-<p><code>SummarizedExperiment</code> proporciona una estructura de datos (clase S4 en R) para almacenar y manipular conjuntamente datos de expresión (o conteos) y la información fenotípica y de características (metadatos). Sus principales características incluyen:</p>
-<ul>
-<li><strong>Organización coherente</strong>: Mantiene matrices de expresión, metadatos de filas (genes) y columnas (muestras) unificados.<br>
-</li>
-<li><strong>Acceso eficiente</strong>: Funciones rápidas para extraer subconjuntos de filas, columnas o datos combinados.<br>
-</li>
-<li><strong>Base para muchos paquetes</strong>: Constituye el formato de entrada estándar para herramientas de análisis de expresión y genómica.<br>
-</li>
-<li><strong>Coherencia y reproducibilidad</strong>: Facilita la gestión ordenada de grandes conjuntos de datos ómicos.</li>
-</ul>
-<p>Es muy utilizado como estructura base para análisis genómicos y flujos de trabajo complejos en Bioconductor.</p>
-<hr>
 </section>
-<section id="biostrings" class="level3">
-<h3 class="anchored" data-anchor-id="biostrings"><strong>Biostrings</strong></h3>
+<section id="kableextra" class="level2">
+<h2 class="anchored" data-anchor-id="kableextra"><strong>KableExtra</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/Biostrings.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://kasperdanielhansen.github.io/genbioconductor/html/Biostrings.html">Documentación detallada</a></li>
+<li><a href="https://cran.rstudio.com/web/packages/kableExtra/vignettes/awesome_table_in_html.html">Accede aquí</a></li>
 </ul>
-<p><code>Biostrings</code> ofrece herramientas para la manipulación y análisis de secuencias biológicas (ADN, ARN y proteínas) en R. Sus principales características incluyen:</p>
+</section>
+<section id="dt" class="level2">
+<h2 class="anchored" data-anchor-id="dt"><strong>DT</strong></h2>
 <ul>
-<li><strong>Manejo de secuencias</strong>: Lectura, escritura y almacenamiento eficiente de secuencias de grandes bases de datos.<br>
-</li>
-<li><strong>Búsqueda de patrones</strong>: Funciones para alinear secuencias y encontrar subsecuencias concretas.<br>
-</li>
-<li><strong>Análisis de calidad</strong>: Herramientas para evaluar la calidad y realizar transformaciones de secuencias.<br>
-</li>
-<li><strong>Integración con otras librerías</strong>: Se combina bien con paquetes como <code>IRanges</code> para análisis avanzados de genómica.</li>
+<li><a href="https://rstudio.github.io/DT/">Accede aquí</a></li>
 </ul>
-<p><code>Biostrings</code> es fundamental para tareas de bioinformática que involucran la manipulación directa de secuencias.</p>
-<hr>
+</section>
+<section id="flextable" class="level2">
+<h2 class="anchored" data-anchor-id="flextable"><strong>Flextable</strong></h2>
+<ul>
+<li><a href="https://davidgohel.github.io/flextable/index.html">Accede aquí</a></li>
+</ul>
+</section>
+<section id="huxtable" class="level2">
+<h2 class="anchored" data-anchor-id="huxtable"><strong>Huxtable</strong></h2>
+<ul>
+<li><a href="https://hughjonesd.github.io/huxtable/">Accede aquí</a></li>
+</ul>
+</section>
+<section id="rhandsontable" class="level2">
+<h2 class="anchored" data-anchor-id="rhandsontable"><strong>Rhandsontable</strong></h2>
+<ul>
+<li><a href="https://jrowen.github.io/rhandsontable/">Accede aquí</a></li>
+</ul>
+</section>
+<section id="pixiedust" class="level2">
+<h2 class="anchored" data-anchor-id="pixiedust"><strong>Pixiedust</strong></h2>
+<ul>
+<li><a href="https://github.com/nutterb/pixiedust?tab=readme-ov-file">Accde aquí</a></li>
+</ul>
 
 
 </section>

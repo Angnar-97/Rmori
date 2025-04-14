@@ -268,9 +268,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#readr" id="toc-readr" class="nav-link" data-scroll-target="#readr"><strong>Readr</strong></a></li>
   <li><a href="#lubridate" id="toc-lubridate" class="nav-link" data-scroll-target="#lubridate"><strong>Lubridate</strong></a></li>
   <li><a href="#dlookr" id="toc-dlookr" class="nav-link" data-scroll-target="#dlookr"><strong>Dlookr</strong></a></li>
-  <li><a href="#gt" id="toc-gt" class="nav-link" data-scroll-target="#gt"><strong>Gt</strong></a></li>
   <li><a href="#naniar" id="toc-naniar" class="nav-link" data-scroll-target="#naniar"><strong>Naniar</strong></a></li>
   <li><a href="#patientlevelprediction" id="toc-patientlevelprediction" class="nav-link" data-scroll-target="#patientlevelprediction"><strong>PatientLevelPrediction</strong></a></li>
+  <li><a href="#bupar" id="toc-bupar" class="nav-link" data-scroll-target="#bupar"><strong>BupaR</strong></a></li>
+  <li><a href="#flowchart" id="toc-flowchart" class="nav-link" data-scroll-target="#flowchart"><strong>Flowchart</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -373,21 +374,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="gt" class="level2">
-<h2 class="anchored" data-anchor-id="gt"><strong>Gt</strong></h2>
-<ul>
-<li><a href="https://gt.rstudio.com/articles/gt.html">Accede aquí</a></li>
-</ul>
-<p><code>Gt</code> (table generator) se enfoca en la creación de tablas profesionales y personalizadas en R. Es parte del ecosistema de Posit (RStudio) y destaca por:</p>
-<ul>
-<li><strong>Diseño simple y poderoso</strong>: Sintaxis intuitiva para generar tablas a partir de data frames o tibbles.<br>
-</li>
-<li><strong>Amplia personalización</strong>: Permite formatear columnas, cabeceras, pie de página, fuentes y colores de manera flexible.<br>
-</li>
-<li><strong>Integración con tidyverse</strong>: Facilita la incorporación de tablas en flujos de trabajo basados en ggplot2, dplyr, etc.</li>
-</ul>
-<hr>
-</section>
 <section id="naniar" class="level2">
 <h2 class="anchored" data-anchor-id="naniar"><strong>Naniar</strong></h2>
 <ul>
@@ -419,7 +405,18 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Amplio soporte de algoritmos</strong>: Compatible con métodos de machine learning y estadísticos tradicionales.</li>
 </ul>
 <hr>
-<p>Este conjunto de paquetes cubre distintos aspectos del análisis de datos y la programación en R, abarcando desde la importación y limpieza de datos hasta la visualización y el modelado predictivo. Cada herramienta se integra de manera fluida en el ecosistema del <strong>tidyverse</strong> y/o con otros paquetes especializados, lo que facilita el desarrollo de flujos de trabajo consistentes y eficientes.</p>
+</section>
+<section id="bupar" class="level2">
+<h2 class="anchored" data-anchor-id="bupar"><strong>BupaR</strong></h2>
+<ul>
+<li><a href="https://bupaverse.github.io/docs/index.html">Accede aquí</a></li>
+</ul>
+</section>
+<section id="flowchart" class="level2">
+<h2 class="anchored" data-anchor-id="flowchart"><strong>Flowchart</strong></h2>
+<ul>
+<li><a href="https://bruigtp.github.io/flowchart/articles/flowchart.html">Accede aquí</a></li>
+</ul>
 
 
 </section>
@@ -517,7 +514,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/r-kodamas\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

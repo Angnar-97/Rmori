@@ -267,6 +267,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#pandas" id="toc-pandas" class="nav-link" data-scroll-target="#pandas"><strong>Pandas</strong></a></li>
   <li><a href="#numpy" id="toc-numpy" class="nav-link" data-scroll-target="#numpy"><strong>NumPy</strong></a></li>
   <li><a href="#plotnine" id="toc-plotnine" class="nav-link" data-scroll-target="#plotnine"><strong>Plotnine</strong></a></li>
+  <li><a href="#docling" id="toc-docling" class="nav-link" data-scroll-target="#docling"><strong>Docling</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -323,6 +324,10 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="plotnine"><strong>Plotnine</strong></h3>
 <p><a href="https://plotnine.org">Accede aquí</a></p>
 <p><code>Plotnine</code> es una biblioteca de Python inspirada en la gramática de gráficos de R (ggplot2), que facilita la creación de visualizaciones declarativas y personalizables para análisis de datos.</p>
+</section>
+<section id="docling" class="level3">
+<h3 class="anchored" data-anchor-id="docling"><strong>Docling</strong></h3>
+<p><a href="https://github.com/docling-project/docling">Accede aquí</a></p>
 
 
 </section>
@@ -421,7 +426,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/r-kodamas\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

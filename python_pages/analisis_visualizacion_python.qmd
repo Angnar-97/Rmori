@@ -38,3 +38,8 @@ Es la base para muchas otras herramientas científicas y es esencial para trabaj
 [Accede aquí](https://plotnine.org)
 
 `Plotnine` es una biblioteca de Python inspirada en la gramática de gráficos de R (ggplot2), que facilita la creación de visualizaciones declarativas y personalizables para análisis de datos.
+
+
+### **Docling**
+
+[Accede aquí](https://github.com/docling-project/docling)

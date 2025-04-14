@@ -1,0 +1,89 @@
+---
+title: "Procesamiento del Lenguaje Natural"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+# **🔍 Paquetes para análisis de texto y NLP**
+
+## **Tidytext**
+
+- [Accede aquí]()
+
+Convierte texto en tidy data frames para análisis con herramientas del tidyverse.
+
+## **Quanteda**
+
+- [Accede aquí]()
+
+Procesamiento eficiente de corpus, análisis de texto y modelado estadístico.
+
+## **Text2vec**
+
+- [Accede aquí]()
+
+Ofrece tokenización, embeddings, similitud de texto y modelado de tópicos.
+
+## **Tm**
+
+- [Accede aquí]()
+
+Paquete clásico para minería de texto, útil para tareas básicas de NLP.
+
+## **Udpipe**
+
+- [Accede aquí]()
+
+Análisis gramatical, lematización y parsing dependiente usando modelos UDPipe.
+
+## **Textrecipes**
+
+- [Accede aquí]()
+
+Extiende recipes para preprocesar texto en flujos de trabajo de machine learning.
+
+## **Sentimentr**
+
+- [Accede aquí]()
+
+Análisis de sentimientos con manejo de contexto y puntuación.
+
+## **Syuzhet**
+
+- [Accede aquí]()
+
+Extrae sentimientos usando diccionarios como NRC, Bing y Afinn.
+
+## **Topicmodels**
+
+- [Accede aquí]()
+
+Implementa modelos de tópicos como LDA y CTM para análisis de temas.
+
+## **RTextTools**
+
+- [Accede aquí]()
+
+Framework para clasificación de texto con múltiples algoritmos de machine learning.
+
+# **🤖 Paquetes para flujos de trabajo RAG y generación aumentada**
+
+## **Ragnar**
+
+- [Accede aquí](https://github.com/tidyverse/ragnar)
+
+Herramienta oficial del tidyverse para implementar flujos de trabajo RAG en R. Proporciona una solución completa con valores predeterminados sensatos, permitiendo al usuario experto un control preciso sobre cada paso. Está diseñada para ser transparente, permitiendo inspeccionar fácilmente las salidas en pasos intermedios para comprender lo que está sucediendo.
+
+## **Gptstudio**
+
+- [Accede aquí]()
+
+Interfaz para interactuar con modelos de lenguaje grandes (LLMs) desde RStudio, facilitando la integración de generación de texto en flujos de trabajo.
+
+## **Chatgpt**
+
+- [Accede aquí]()
+
+Permite acceder a la API de ChatGPT desde R, útil para tareas de generación de texto y chatbots.
+

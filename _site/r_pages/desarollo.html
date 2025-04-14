@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bioconductor – R Kodamas</title>
+<title>Software para el Desarrollo de Paquetes – R Kodamas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,8 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="Bioconductor – R Kodamas">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Software para el Desarrollo de Paquetes – R Kodamas">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -263,12 +262,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">PAGE INDEX</h2>
    
   <ul>
-  <li><a href="#phyloseq" id="toc-phyloseq" class="nav-link active" data-scroll-target="#phyloseq"><strong>Phyloseq</strong></a></li>
-  <li><a href="#deseq2" id="toc-deseq2" class="nav-link" data-scroll-target="#deseq2"><strong>DESeq2</strong></a></li>
-  <li><a href="#edger" id="toc-edger" class="nav-link" data-scroll-target="#edger"><strong>EdgeR</strong></a></li>
-  <li><a href="#limma" id="toc-limma" class="nav-link" data-scroll-target="#limma"><strong>Limma</strong></a></li>
-  <li><a href="#summarizedexperiment" id="toc-summarizedexperiment" class="nav-link" data-scroll-target="#summarizedexperiment"><strong>SummarizedExperiment</strong></a></li>
-  <li><a href="#biostrings" id="toc-biostrings" class="nav-link" data-scroll-target="#biostrings"><strong>Biostrings</strong></a></li>
+  <li><a href="#desarrollo-de-paquetes" id="toc-desarrollo-de-paquetes" class="nav-link active" data-scroll-target="#desarrollo-de-paquetes"><strong>📦 Desarrollo de paquetes</strong></a>
+  <ul class="collapse">
+  <li><a href="#devtools" id="toc-devtools" class="nav-link" data-scroll-target="#devtools"><strong>Devtools</strong></a></li>
+  <li><a href="#usethis" id="toc-usethis" class="nav-link" data-scroll-target="#usethis"><strong>Usethis</strong></a></li>
+  <li><a href="#roxygen2" id="toc-roxygen2" class="nav-link" data-scroll-target="#roxygen2"><strong>Roxygen2</strong></a></li>
+  <li><a href="#pkgload" id="toc-pkgload" class="nav-link" data-scroll-target="#pkgload"><strong>Pkgload</strong></a></li>
+  <li><a href="#desc" id="toc-desc" class="nav-link" data-scroll-target="#desc"><strong>Desc</strong></a></li>
+  <li><a href="#rcmdcheck" id="toc-rcmdcheck" class="nav-link" data-scroll-target="#rcmdcheck"><strong>Rcmdcheck</strong></a></li>
+  <li><a href="#testthat" id="toc-testthat" class="nav-link" data-scroll-target="#testthat"><strong>Testthat</strong></a></li>
+  <li><a href="#covr" id="toc-covr" class="nav-link" data-scroll-target="#covr"><strong>Covr</strong></a></li>
+  <li><a href="#pkgdown" id="toc-pkgdown" class="nav-link" data-scroll-target="#pkgdown"><strong>Pkgdown</strong></a></li>
+  <li><a href="#sessioninfo" id="toc-sessioninfo" class="nav-link" data-scroll-target="#sessioninfo"><strong>Sessioninfo</strong></a></li>
+  <li><a href="#goodpractice" id="toc-goodpractice" class="nav-link" data-scroll-target="#goodpractice"><strong>Goodpractice</strong></a></li>
+  </ul></li>
+  <li><a href="#buenas-prácticas-de-estilo-y-linting" id="toc-buenas-prácticas-de-estilo-y-linting" class="nav-link" data-scroll-target="#buenas-prácticas-de-estilo-y-linting"><strong>🧹 Buenas prácticas de estilo y linting</strong></a>
+  <ul class="collapse">
+  <li><a href="#lintr" id="toc-lintr" class="nav-link" data-scroll-target="#lintr"><strong>Lintr</strong></a></li>
+  <li><a href="#styler" id="toc-styler" class="nav-link" data-scroll-target="#styler"><strong>Styler</strong></a></li>
+  <li><a href="#precommit" id="toc-precommit" class="nav-link" data-scroll-target="#precommit"><strong>Precommit</strong></a></li>
+  </ul></li>
+  <li><a href="#otros-útiles" id="toc-otros-útiles" class="nav-link" data-scroll-target="#otros-útiles"><strong>🔍 Otros útiles</strong></a>
+  <ul class="collapse">
+  <li><a href="#whoami" id="toc-whoami" class="nav-link" data-scroll-target="#whoami"><strong>Whoami</strong></a></li>
+  <li><a href="#checkmate" id="toc-checkmate" class="nav-link" data-scroll-target="#checkmate"><strong>Checkmate</strong></a></li>
+  <li><a href="#assertthat" id="toc-assertthat" class="nav-link" data-scroll-target="#assertthat"><strong>Assertthat</strong></a></li>
+  <li><a href="#withr" id="toc-withr" class="nav-link" data-scroll-target="#withr"><strong>Withr</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -277,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bioconductor</h1>
+<h1 class="title">Software para el Desarrollo de Paquetes</h1>
 </div>
 
 
@@ -294,127 +314,142 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="phyloseq" class="level3">
-<h3 class="anchored" data-anchor-id="phyloseq"><strong>Phyloseq</strong></h3>
+<section id="desarrollo-de-paquetes" class="level1">
+<h1><strong>📦 Desarrollo de paquetes</strong></h1>
+<section id="devtools" class="level2">
+<h2 class="anchored" data-anchor-id="devtools"><strong>Devtools</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/phyloseq.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://joey711.github.io/phyloseq/">Documentación detallada</a></li>
+<li><a href="https://devtools.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>Phyloseq</code> es un paquete de R diseñado para el análisis y la visualización de datos microbiológicos y de ecología microbiana. Permite trabajar con datos de secuenciación de alto rendimiento de microbiomas. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Integración de múltiples tipos de datos</strong>: Manejo de abundancia de OTUs, taxonomía, metadatos ambientales, etc.<br>
-</li>
-<li><strong>Análisis de diversidad alfa y beta</strong>: Herramientas para explorar la diversidad de comunidades microbianas.<br>
-</li>
-<li><strong>Visualización</strong>: Permite crear gráficos de barras, PCA/PCoA, redes microbianas, entre otros.<br>
-</li>
-<li><strong>Interoperabilidad</strong>: Compatible con flujos de trabajo de herramientas como QIIME.</li>
-</ul>
-<p>Es ampliamente utilizado en estudios relacionados con el microbioma para comprender la composición y dinámica de comunidades microbianas.</p>
-<hr>
+<p>Facilita tareas comunes en el desarrollo de paquetes: instalación, pruebas, documentación, etc.</p>
 </section>
-<section id="deseq2" class="level3">
-<h3 class="anchored" data-anchor-id="deseq2"><strong>DESeq2</strong></h3>
+<section id="usethis" class="level2">
+<h2 class="anchored" data-anchor-id="usethis"><strong>Usethis</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq2.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html">Documentación detallada</a></li>
+<li><a href="https://usethis.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>DESeq2</code> es un paquete de R enfocado en el análisis de expresión diferencial para datos de RNA-seq (o conteos de secuenciación). Utiliza modelos estadísticos basados en la distribución binomial negativa para estimar la significancia de los cambios de expresión entre condiciones experimentales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Normalización de datos de conteo</strong>: Ajuste estadístico para diferencias de profundidad de secuenciación.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Identificación de genes y transcritos que cambian significativamente entre grupos.<br>
-</li>
-<li><strong>Cálculo de tamaños de efecto y valores de p ajustados</strong>: Minimiza falsos positivos en grandes conjuntos de datos.<br>
-</li>
-<li><strong>Visualizaciones integradas</strong>: Funciones para generar MA-plots, PCA y gráficos de dispersión.</li>
-</ul>
-<p>DESeq2 es una herramienta estándar para el análisis de datos transcriptómicos en estudios genómicos y de biología molecular.</p>
-<hr>
+<p>Automatiza la configuración de archivos y estructuras de un paquete R (LICENSE, README, etc.).</p>
 </section>
-<section id="edger" class="level3">
-<h3 class="anchored" data-anchor-id="edger"><strong>EdgeR</strong></h3>
+<section id="roxygen2" class="level2">
+<h2 class="anchored" data-anchor-id="roxygen2"><strong>Roxygen2</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/edgeR.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf">Documentación detallada</a></li>
+<li><a href="https://roxygen2.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>EdgeR</code> se especializa en el análisis de expresión diferencial para datos de conteos provenientes de experimentos de RNA-seq o similares. Emplea modelos basados en la distribución binomial negativa y metodologías de estimación empírica de la dispersión. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Estimación de dispersión</strong>: Utiliza métodos empíricos para ajustar la variación en los datos de conteo.<br>
-</li>
-<li><strong>Comparaciones múltiples</strong>: Manejo de distintos contrastes y condiciones experimentales.<br>
-</li>
-<li><strong>Análisis de genes de baja expresión</strong>: Herramientas específicas para filtrar y evaluar genes con conteos bajos.<br>
-</li>
-<li><strong>Compatibilidad con grandes datasets</strong>: Procesamiento eficiente incluso con muestras y genes numerosos.</li>
-</ul>
-<p>edgeR es especialmente valorado por su robustez en el tratamiento de datos de conteo y es ampliamente citado en estudios de transcriptómica.</p>
-<hr>
+<p>Herramienta para generar documentación directamente desde los comentarios del código.</p>
 </section>
-<section id="limma" class="level3">
-<h3 class="anchored" data-anchor-id="limma"><strong>Limma</strong></h3>
+<section id="pkgload" class="level2">
+<h2 class="anchored" data-anchor-id="pkgload"><strong>Pkgload</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/limma.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf">Documentación detallada</a></li>
+<li><a href="https://pkgload.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>Limma</code> nació como un paquete para el análisis de microarrays, pero se ha adaptado también para datos de RNA-seq combinándolo con técnicas de transformación de conteos (por ejemplo, <em>voom</em>). Permite modelar datos de expresión génica usando metodologías lineales. Sus principales características incluyen:</p>
-<ul>
-<li><strong>Modelos lineales</strong>: Ajustes flexibles para comparar múltiples grupos o condiciones.<br>
-</li>
-<li><strong>Funcionalidad <em>voom</em></strong>: Transformación de conteos para aplicar metodologías de microarray a RNA-seq.<br>
-</li>
-<li><strong>Análisis de expresión diferencial</strong>: Resultados fiables con correcciones de valores de p y estimaciones de variación.<br>
-</li>
-<li><strong>Integración con flujos de trabajo</strong>: Compatible con otros paquetes de Bioconductor para la visualización y exploración de resultados.</li>
-</ul>
-<p><code>Limma</code> es una de las herramientas más consolidadas para el análisis de expresión génica, siendo muy valorada por su velocidad y robustez.</p>
-<hr>
+<p>Carga paquetes en desarrollo de forma que simula su carga después de la instalación.</p>
 </section>
-<section id="summarizedexperiment" class="level3">
-<h3 class="anchored" data-anchor-id="summarizedexperiment"><strong>SummarizedExperiment</strong></h3>
+<section id="desc" class="level2">
+<h2 class="anchored" data-anchor-id="desc"><strong>Desc</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html">Documentación detallada</a></li>
+<li><a href="https://desc.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>SummarizedExperiment</code> proporciona una estructura de datos (clase S4 en R) para almacenar y manipular conjuntamente datos de expresión (o conteos) y la información fenotípica y de características (metadatos). Sus principales características incluyen:</p>
-<ul>
-<li><strong>Organización coherente</strong>: Mantiene matrices de expresión, metadatos de filas (genes) y columnas (muestras) unificados.<br>
-</li>
-<li><strong>Acceso eficiente</strong>: Funciones rápidas para extraer subconjuntos de filas, columnas o datos combinados.<br>
-</li>
-<li><strong>Base para muchos paquetes</strong>: Constituye el formato de entrada estándar para herramientas de análisis de expresión y genómica.<br>
-</li>
-<li><strong>Coherencia y reproducibilidad</strong>: Facilita la gestión ordenada de grandes conjuntos de datos ómicos.</li>
-</ul>
-<p>Es muy utilizado como estructura base para análisis genómicos y flujos de trabajo complejos en Bioconductor.</p>
-<hr>
+<p>Permite manipular el archivo DESCRIPTION programáticamente.</p>
 </section>
-<section id="biostrings" class="level3">
-<h3 class="anchored" data-anchor-id="biostrings"><strong>Biostrings</strong></h3>
+<section id="rcmdcheck" class="level2">
+<h2 class="anchored" data-anchor-id="rcmdcheck"><strong>Rcmdcheck</strong></h2>
 <ul>
-<li><a href="https://www.bioconductor.org/packages/release/bioc/html/Biostrings.html">Página oficial en Bioconductor</a><br>
-</li>
-<li><a href="https://kasperdanielhansen.github.io/genbioconductor/html/Biostrings.html">Documentación detallada</a></li>
+<li><a href="https://rcmdcheck.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>Biostrings</code> ofrece herramientas para la manipulación y análisis de secuencias biológicas (ADN, ARN y proteínas) en R. Sus principales características incluyen:</p>
+<p>Ejecuta R CMD check y devuelve los resultados como objetos R legibles.</p>
+</section>
+<section id="testthat" class="level2">
+<h2 class="anchored" data-anchor-id="testthat"><strong>Testthat</strong></h2>
 <ul>
-<li><strong>Manejo de secuencias</strong>: Lectura, escritura y almacenamiento eficiente de secuencias de grandes bases de datos.<br>
-</li>
-<li><strong>Búsqueda de patrones</strong>: Funciones para alinear secuencias y encontrar subsecuencias concretas.<br>
-</li>
-<li><strong>Análisis de calidad</strong>: Herramientas para evaluar la calidad y realizar transformaciones de secuencias.<br>
-</li>
-<li><strong>Integración con otras librerías</strong>: Se combina bien con paquetes como <code>IRanges</code> para análisis avanzados de genómica.</li>
+<li><a href="https://testthat.r-lib.org"><strong>Accede aquí</strong></a></li>
 </ul>
-<p><code>Biostrings</code> es fundamental para tareas de bioinformática que involucran la manipulación directa de secuencias.</p>
-<hr>
+<p>Framework para escribir pruebas unitarias.</p>
+</section>
+<section id="covr" class="level2">
+<h2 class="anchored" data-anchor-id="covr"><strong>Covr</strong></h2>
+<ul>
+<li><a href="https://covr.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Mide la cobertura del código por las pruebas.</p>
+</section>
+<section id="pkgdown" class="level2">
+<h2 class="anchored" data-anchor-id="pkgdown"><strong>Pkgdown</strong></h2>
+<ul>
+<li><a href="https://pkgdown.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Crea automáticamente un sitio web de documentación para tu paquete.</p>
+</section>
+<section id="sessioninfo" class="level2">
+<h2 class="anchored" data-anchor-id="sessioninfo"><strong>Sessioninfo</strong></h2>
+<ul>
+<li><a href="https://sessioninfo.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Proporciona información detallada sobre el entorno de R (mejor que sessionInfo() para depuración y desarrollo).</p>
+</section>
+<section id="goodpractice" class="level2">
+<h2 class="anchored" data-anchor-id="goodpractice"><strong>Goodpractice</strong></h2>
+<ul>
+<li><a href="https://docs.ropensci.org/goodpractice/"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Evalúa tu paquete según buenas prácticas comunes (nombres de funciones, longitud de líneas, documentación, etc.).</p>
+</section>
+</section>
+<section id="buenas-prácticas-de-estilo-y-linting" class="level1">
+<h1><strong>🧹 Buenas prácticas de estilo y linting</strong></h1>
+<section id="lintr" class="level2">
+<h2 class="anchored" data-anchor-id="lintr"><strong>Lintr</strong></h2>
+<ul>
+<li><a href="https://lintr.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Analiza el código R en busca de errores de estilo, prácticas dudosas, etc.</p>
+</section>
+<section id="styler" class="level2">
+<h2 class="anchored" data-anchor-id="styler"><strong>Styler</strong></h2>
+<ul>
+<li><a href="https://styler.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Aplica automáticamente un estilo coherente a tu código R (compatible con tidyverse style guide).</p>
+</section>
+<section id="precommit" class="level2">
+<h2 class="anchored" data-anchor-id="precommit"><strong>Precommit</strong></h2>
+<ul>
+<li><a href="https://lorenzwalthert.github.io/precommit/articles/precommit.html"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Integra ganchos pre-commit para ejecutar tests, linting, chequeo de estilos, etc. antes de hacer un commit.</p>
+</section>
+</section>
+<section id="otros-útiles" class="level1">
+<h1><strong>🔍 Otros útiles</strong></h1>
+<section id="whoami" class="level2">
+<h2 class="anchored" data-anchor-id="whoami"><strong>Whoami</strong></h2>
+<ul>
+<li><a href="https://github.com/r-lib/whoami"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Herramienta simple para obtener información sobre el usuario (ideal para configurar Git dentro de R).</p>
+</section>
+<section id="checkmate" class="level2">
+<h2 class="anchored" data-anchor-id="checkmate"><strong>Checkmate</strong></h2>
+<ul>
+<li><a href="https://mllg.github.io/checkmate/"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Validación rápida y segura de argumentos y estructuras de datos en funciones.</p>
+</section>
+<section id="assertthat" class="level2">
+<h2 class="anchored" data-anchor-id="assertthat"><strong>Assertthat</strong></h2>
+<ul>
+<li><a href="https://github.com/hadley/assertthat"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Sintaxis clara y amigable para comprobaciones de código.</p>
+</section>
+<section id="withr" class="level2">
+<h2 class="anchored" data-anchor-id="withr"><strong>Withr</strong></h2>
+<ul>
+<li><a href="https://withr.r-lib.org"><strong>Accede aquí</strong></a></li>
+</ul>
+<p>Administra cambios temporales en el entorno (útil para tests y ejemplos reproducibles).</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

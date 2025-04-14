@@ -13,6 +13,8 @@ editor: source
 
 - [R Packages](https://r-pkgs.org)
 
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
 - [Efficient R Programming](https://csgillespie.github.io/efficientR/)
 
 [Enlace a Amazon para comprar los libros en físico](https://www.amazon.com/stores/page/62315E1B-683D-4081-B276-F4D33F2FACA2)

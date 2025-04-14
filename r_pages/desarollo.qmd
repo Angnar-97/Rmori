@@ -1,0 +1,123 @@
+---
+title: "Software para el Desarrollo de Paquetes"
+toc: true
+toc-title: "PAGE INDEX"
+editor: source
+---
+
+# **📦 Desarrollo de paquetes**
+
+## **Devtools**
+
+- [**Accede aquí**](https://devtools.r-lib.org)
+
+Facilita tareas comunes en el desarrollo de paquetes: instalación, pruebas, documentación, etc.
+
+## **Usethis**
+
+- [**Accede aquí**](https://usethis.r-lib.org)
+
+Automatiza la configuración de archivos y estructuras de un paquete R (LICENSE, README, etc.).
+
+## **Roxygen2**
+
+- [**Accede aquí**](https://roxygen2.r-lib.org)
+
+Herramienta para generar documentación directamente desde los comentarios del código.
+
+## **Pkgload**
+
+- [**Accede aquí**](https://pkgload.r-lib.org)
+
+Carga paquetes en desarrollo de forma que simula su carga después de la instalación.
+
+## **Desc**
+
+- [**Accede aquí**](https://desc.r-lib.org)
+
+Permite manipular el archivo DESCRIPTION programáticamente.
+
+## **Rcmdcheck**
+
+- [**Accede aquí**](https://rcmdcheck.r-lib.org)
+
+Ejecuta R CMD check y devuelve los resultados como objetos R legibles.
+
+## **Testthat**
+
+- [**Accede aquí**](https://testthat.r-lib.org)
+
+Framework para escribir pruebas unitarias.
+
+## **Covr**
+
+- [**Accede aquí**](https://covr.r-lib.org)
+
+Mide la cobertura del código por las pruebas.
+
+## **Pkgdown**
+
+- [**Accede aquí**](https://pkgdown.r-lib.org)
+
+Crea automáticamente un sitio web de documentación para tu paquete.
+
+## **Sessioninfo**
+
+- [**Accede aquí**](https://sessioninfo.r-lib.org)
+
+Proporciona información detallada sobre el entorno de R (mejor que sessionInfo() para depuración y desarrollo).
+
+## **Goodpractice**
+
+- [**Accede aquí**](https://docs.ropensci.org/goodpractice/)
+
+Evalúa tu paquete según buenas prácticas comunes (nombres de funciones, longitud de líneas, documentación, etc.).
+
+# **🧹 Buenas prácticas de estilo y linting**
+
+## **Lintr**
+
+- [**Accede aquí**](https://lintr.r-lib.org)
+
+Analiza el código R en busca de errores de estilo, prácticas dudosas, etc.
+
+## **Styler**
+
+- [**Accede aquí**](https://styler.r-lib.org)
+
+Aplica automáticamente un estilo coherente a tu código R (compatible con tidyverse style guide).
+
+## **Precommit**
+
+- [**Accede aquí**](https://lorenzwalthert.github.io/precommit/articles/precommit.html)
+
+Integra ganchos pre-commit para ejecutar tests, linting, chequeo de estilos, etc. antes de hacer un commit.
+
+# **🔍 Otros útiles**
+
+## **Whoami**
+
+- [**Accede aquí**](https://github.com/r-lib/whoami)
+
+Herramienta simple para obtener información sobre el usuario (ideal para configurar Git dentro de R).
+
+## **Checkmate**
+
+- [**Accede aquí**](https://mllg.github.io/checkmate/)
+
+Validación rápida y segura de argumentos y estructuras de datos en funciones.
+
+## **Assertthat**
+
+- [**Accede aquí**](https://github.com/hadley/assertthat)
+
+Sintaxis clara y amigable para comprobaciones de código.
+
+## **Withr**
+
+- [**Accede aquí**](https://withr.r-lib.org)
+
+Administra cambios temporales en el entorno (útil para tests y ejemplos reproducibles).
+
+
+
