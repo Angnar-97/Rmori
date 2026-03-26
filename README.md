@@ -1,7 +1,7 @@
 # Rmori
 
 <p align="center">
-  <img src="images/cover.png" alt="Rmori cover" width="900"/>
+  <img src="images/rmori2.png" alt="Rmori cover" width="900"/>
 </p>
 
 ---

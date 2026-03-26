@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: f49012df-82f0-4e68-9714-8cb174df37fd
-      url: 'https://rmori.netlify.app'
+      url: https://rmori.netlify.app

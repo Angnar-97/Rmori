@@ -1,1 +1,1 @@
-Sitemap: https://r-kodamas.netlify.app/sitemap.xml
+Sitemap: https://rmori.netlify.app/sitemap.xml
