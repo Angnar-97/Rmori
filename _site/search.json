@@ -1339,16 +1339,16 @@
   {
     "objectID": "index.html#nuestro-propósito",
     "href": "index.html#nuestro-propósito",
-    "title": "R Kodamas",
-    "section": "Nuestro propósito",
-    "text": "Nuestro propósito\nEn R Kodamas, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de R, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.\nQueremos inspirarte a:\n\nExplorar nuevas herramientas: Descubrir funcionalidades de R que transformen la forma en que trabajas con datos.\nDesarrollar habilidades prácticas: Proporcionarte guías, tutoriales y ejemplos que puedas aplicar directamente en tus proyectos.\nFomentar la colaboración: Crear un espacio donde la comunidad comparta conocimientos, mejores prácticas e ideas innovadoras.\nImpulsar la creatividad: Ayudarte a diseñar soluciones únicas a través de visualizaciones impactantes y técnicas avanzadas.\n\nYa sea que estés iniciando tu camino en el análisis de datos o busques perfeccionar tus competencias, nuestro objetivo es acompañarte con recursos prácticos, actualizados y accesibles que te permitan crecer profesionalmente."
+    "title": "RMori",
+    "section": "",
+    "text": "En RMori, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de R, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.\nQueremos inspirarte a:\n\nExplorar nuevas herramientas: Descubrir funcionalidades de R que transformen la forma en que trabajas con datos.\nDesarrollar habilidades prácticas: Proporcionarte guías, tutoriales y ejemplos que puedas aplicar directamente en tus proyectos.\nFomentar la colaboración: Crear un espacio donde la comunidad comparta conocimientos, mejores prácticas e ideas innovadoras.\nImpulsar la creatividad: Ayudarte a diseñar soluciones únicas a través de visualizaciones impactantes y técnicas avanzadas.\n\nYa sea que estés iniciando tu camino en el análisis de datos o busques perfeccionar tus competencias, nuestro objetivo es acompañarte con recursos prácticos, actualizados y accesibles que te permitan crecer profesionalmente."
   },
   {
     "objectID": "index.html#conecta-con-nosotros",
     "href": "index.html#conecta-con-nosotros",
-    "title": "R Kodamas",
-    "section": "Conecta con nosotros",
-    "text": "Conecta con nosotros\nSi tienes ideas, sugerencias o simplemente necesitas ayuda, no dudes en visitar nuestra sección de Contacto."
+    "title": "RMori",
+    "section": "",
+    "text": "Si tienes ideas, sugerencias o simplemente necesitas ayuda, no dudes en visitar nuestra sección de Contacto."
   },
   {
     "objectID": "python_pages/calidad_codigo.html",
@@ -1601,5 +1601,19 @@
     "title": "Diseño de Tablas",
     "section": "Pixiedust",
     "text": "Pixiedust\n\nAccde aquí"
+  },
+  {
+    "objectID": "index.html#qué-encontrarás-en-rmori",
+    "href": "index.html#qué-encontrarás-en-rmori",
+    "title": "RMori",
+    "section": "",
+    "text": "Te ofrecemos contenido cuidadosamente estructurado para ayudarte en tu aprendizaje y proyectos:\n\nManejo de Datos: Aprende a limpiar, transformar y manejar grandes volúmenes de datos.\nGráficos: Diseña visualizaciones impactantes y claras para comunicar tus hallazgos.\nBioconductor: Explora recursos específicos para análisis bioinformáticos.\nImágenes: Descubre herramientas y técnicas para el manejo de gráficos y visuales.\nMapas: Crea mapas interactivos y estáticos con datos geoespaciales.\nEstadística: Desde estadística descriptiva hasta análisis más complejos.\nModelización: Construcción de modelos predictivos y análisis avanzado.\nShiny: Diseña aplicaciones web interactivas con R para compartir resultados.\nQuarto: Aprende a crear reportes y sitios web dinámicos como este.\nPython: Amplía las capacidades de tu análisis integrando R y Python.\nBases de Datos: Conéctate a bases de datos para análisis robustos y eficientes.\nLibros: Recomendaciones esenciales para aprender más sobre R y análisis de datos.\nGrupos Online y Concursos: Encuentra comunidades y desafíos para mejorar tus habilidades.\nReferentes: Conoce expertos y recursos clave que inspiran el desarrollo en R."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RMori",
+    "section": "",
+    "text": "RMori es un espacio dedicado a compartir conocimientos y recursos sobre el uso de R en análisis de datos, visualización y más. Con un enfoque organizado y accesible, encontrarás herramientas esenciales para cualquier nivel, desde principiante hasta avanzado.\n\n\n\nTe ofrecemos contenido cuidadosamente estructurado para ayudarte en tu aprendizaje y proyectos:\n\nManejo de Datos: Aprende a limpiar, transformar y manejar grandes volúmenes de datos.\nGráficos: Diseña visualizaciones impactantes y claras para comunicar tus hallazgos.\nBioconductor: Explora recursos específicos para análisis bioinformáticos.\nImágenes: Descubre herramientas y técnicas para el manejo de gráficos y visuales.\nMapas: Crea mapas interactivos y estáticos con datos geoespaciales.\nEstadística: Desde estadística descriptiva hasta análisis más complejos.\nModelización: Construcción de modelos predictivos y análisis avanzado.\nShiny: Diseña aplicaciones web interactivas con R para compartir resultados.\nQuarto: Aprende a crear reportes y sitios web dinámicos como este.\nPython: Amplía las capacidades de tu análisis integrando R y Python.\nBases de Datos: Conéctate a bases de datos para análisis robustos y eficientes.\nLibros: Recomendaciones esenciales para aprender más sobre R y análisis de datos.\nGrupos Online y Concursos: Encuentra comunidades y desafíos para mejorar tus habilidades.\nReferentes: Conoce expertos y recursos clave que inspiran el desarrollo en R.\n\n\n\n\n\nEn RMori, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de R, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.\nQueremos inspirarte a:\n\nExplorar nuevas herramientas: Descubrir funcionalidades de R que transformen la forma en que trabajas con datos.\nDesarrollar habilidades prácticas: Proporcionarte guías, tutoriales y ejemplos que puedas aplicar directamente en tus proyectos.\nFomentar la colaboración: Crear un espacio donde la comunidad comparta conocimientos, mejores prácticas e ideas innovadoras.\nImpulsar la creatividad: Ayudarte a diseñar soluciones únicas a través de visualizaciones impactantes y técnicas avanzadas.\n\nYa sea que estés iniciando tu camino en el análisis de datos o busques perfeccionar tus competencias, nuestro objetivo es acompañarte con recursos prácticos, actualizados y accesibles que te permitan crecer profesionalmente.\n\n\n\n\nSi tienes ideas, sugerencias o simplemente necesitas ayuda, no dudes en visitar nuestra sección de Contacto."
   }
 ]

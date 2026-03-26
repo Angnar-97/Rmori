@@ -1,8 +1,153 @@
 /*-- scss:defaults --*/
-// Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #e55a0a;
 
-// Code blocks
-$code-block-bg-alpha: -.8;
+// =============================
+// PALETA BASE
+// =============================
+$body-bg: #FAF9F6;      // marfil
+$body-color: #2A2A2A;
+$link-color: #5F8575;   // jade
+
+$primary: #5F8575;
+$secondary: #2A2A2A;
+
+// Selección
+$selection-bg: #5F8575;
+$selection-color: #FFFFFF;
+
+// Navegación
+$navbar-bg: #5F8575;
+$navbar-fg: #2A2A2A;
+$navbar-hl: #FAF9F6;
+
+$sidebar-bg: #5F8575;
+$sidebar-fg: #2A2A2A;
+$sidebar-hl: #FAF9F6;
+
+// TOC / navegación lateral
+$toc-color: #2A2A2A;
+
+// Bordes y bloques
+$border-color: #E5E1DA;
+$card-bg: #FFFFFF;
+$code-bg: #F3EFEA;
+$code-color: #006B45;
+$input-bg: #FFFFFF;
+
+// Tipografía
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+$font-family-sans-serif: "Gotham", "Montserrat", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Bespoke Stencil", "Gotham", sans-serif;
+
+// Tamaños
+$font-size-base: 1rem;
+$h1-font-size: 2.6rem;
+$h2-font-size: 2.1rem;
+$h3-font-size: 1.6rem;
+
+// Peso
+$headings-font-weight: 600;
+
+// Código
+$code-block-bg-alpha: -0.7;
+
+
+/*-- scss:rules --*/
+
+// =============================
+// BASE
+// =============================
+body {
+  font-family: $font-family-sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1.7;
+}
+
+::selection {
+  background: $selection-bg;
+  color: $selection-color;
+}
+
+// =============================
+// HEADINGS
+// =============================
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1A1A1A;
+}
+
+h1 {
+  border-bottom: 2px solid $link-color;
+  padding-bottom: 0.3rem;
+}
+
+// =============================
+// LINKS
+// =============================
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: darken($link-color, 10%);
+  text-shadow: 0 0 4px rgba(0, 168, 107, 0.3);
+}
+
+// =============================
+// CODE BLOCKS
+// =============================
+pre, code {
+  font-family: "Fira Code", monospace;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 1rem;
+  border: 1px solid $border-color;
+  background-color: $code-bg;
+}
+
+// =============================
+// TABLAS
+// =============================
+table {
+  background-color: $card-bg;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #F1ECE6;
+  text-transform: uppercase;
+}
+
+td, th {
+  padding: 0.6rem;
+  border: 1px solid $border-color;
+}
+
+// =============================
+// CALLOUTS
+// =============================
+.callout {
+  background-color: #F4F0EA;
+  border-left: 4px solid $link-color;
+}
+
+// =============================
+// TOC
+// =============================
+#TOC {
+  font-size: 0.9rem;
+}
+
+#TOC a {
+  color: $body-color;
+}
+
+#TOC a:hover {
+  color: $link-color;
+}

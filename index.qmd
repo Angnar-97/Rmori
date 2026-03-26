@@ -1,17 +1,22 @@
 ---
-title: "R Kodamas"
+title: "RMori"
+subtitle: "Data science & Bioinformatics"
+title-block-banner: images/rmori2.png
+title-block-banner-color: "#F8F5F0"
+format:
+  html:
+    theme:
+      - theme-light.scss
 editor: source
 ---
 
-# ![Princesa Mononoke](images/princesa_mononoke_58)
+# Bienvenido a **RMori**
 
-# Bienvenido a **R Kodamas**
-
-**R Kodamas** es un espacio dedicado a compartir conocimientos y recursos sobre el uso de **R** en análisis de datos, visualización y más. Con un enfoque organizado y accesible, encontrarás herramientas esenciales para cualquier nivel, desde principiante hasta avanzado.
+**RMori** es un espacio dedicado a compartir conocimientos y recursos sobre el uso de **R** en análisis de datos, visualización y más. Con un enfoque organizado y accesible, encontrarás herramientas esenciales para cualquier nivel, desde principiante hasta avanzado.
 
 ---
 
-## ¿Qué encontrarás en **R Kodamas**?
+## ¿Qué encontrarás en **RMori**?
 
 Te ofrecemos contenido cuidadosamente estructurado para ayudarte en tu aprendizaje y proyectos:
 
@@ -34,7 +39,7 @@ Te ofrecemos contenido cuidadosamente estructurado para ayudarte en tu aprendiza
 
 ## Nuestro propósito
 
-En **R Kodamas**, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de **R**, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.
+En **RMori**, creemos que el conocimiento es la base para resolver desafíos complejos y potenciar el análisis de datos. Nuestro propósito es ser un punto de referencia en la comunidad de **R**, ofreciendo recursos de calidad que sean útiles tanto para principiantes como para expertos.
 
 Queremos inspirarte a:
 
